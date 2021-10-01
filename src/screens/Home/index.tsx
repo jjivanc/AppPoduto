@@ -35,7 +35,7 @@ export function Home() {
       setData(response.data)
       setDadoProdutos(INIT_DATA)
     } catch (e) {
-      Alert.alert('Erro', 'Ero ao buscar Produto');
+      Alert.alert('Erro', 'Erro ao encontrar Produto');
     }
   }
   async function handleSubmit() {
@@ -51,7 +51,7 @@ export function Home() {
       
       getProdutos();
     } catch (error) {
-      Alert.alert('Erro', 'Ero ao buscar dados');
+      Alert.alert('Erro', 'Erro ao encontrar Produto');
     }
   }
 
